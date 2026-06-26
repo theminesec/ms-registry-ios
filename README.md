@@ -1,4 +1,4 @@
-# Headless-iOS v1.0.03
+# Headless-iOS v1.1.00
 
 Quickstart Guide (iOS)
 ---
