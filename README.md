@@ -1,4 +1,4 @@
-# Headless-iOS v1.1.00
+# Headless-iOS v1.2.01
 
 Quickstart Guide (iOS)
 ---
@@ -6,7 +6,9 @@ Quickstart Guide (iOS)
 
 The iOS Embedded Payment SDK provides the same core payment APIs and capabilities as Android, but **does not support UI customization**. The reader UI is handled by iOS system.
 
-You can find the example project [here via  github](https://github.com/theminesec/ms-example-headless-ios)
+You can find the example project [here via GitHub](https://github.com/theminesec/ms-example-headless-ios).
+
+For the full SDK API guide, see [api-guide.md](api-guide.md).
 
 
 ## iOS Embedded Payment SDK Quickstart
@@ -17,7 +19,7 @@ Add the Embedded Payment SDK package following these steps
 
 - File → Add Package Dependencies
 - Paste this link https://github.com/theminesec/ms-registry-ios
-- Keep the selection on latest version 1.0.3 and click Add Package
+- Keep the selection on latest version v1.2.01 and click Add Package
 
 ### Start Pre-requisite
 1. You’ll need Tap to Pay [entitlement](https://developer.apple.com/documentation/ProximityReader/setting-up-the-entitlement-for-tap-to-pay-on-iPhone) before you can use the iOS Embedded Payment SDK.
@@ -67,7 +69,7 @@ let poi = PoiRequest(
     cvmSignatureMode: .signOnPaper
 )
 
-let result = await service.launchRequest(poi)
+let result = await service.launchPayment(poi)
 switch result {
 case .success(let success):
     print("✅ Transaction Completed, tranId: \(success.tranId)")
