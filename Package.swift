@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Headless",
-            url: "https://github.com/theminesec/ms-registry-ios/releases/download/1.2.2/Headless.xcframework.zip",
-            checksum: "e2d96476613acf33b5e855a43ae101cf81d530f383344b66a6a0b34d76eb6601"
+            url: "https://github.com/theminesec/ms-registry-ios/releases/download/1.2.3/Headless.xcframework.zip",
+            checksum: "c22a448e2250012cc71e6be6fccdd0eaf7fd581314952c942204ce875280c53c"
         )
     ]
 )
