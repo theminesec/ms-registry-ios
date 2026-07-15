@@ -1,4 +1,4 @@
-# Headless-iOS v1.2.4
+# Headless-iOS v1.2.5
 
 Quickstart Guide (iOS)
 ---
@@ -19,7 +19,7 @@ Add the Embedded Payment SDK package following these steps
 
 - File → Add Package Dependencies
 - Paste this link https://github.com/theminesec/ms-registry-ios
-- Keep the selection on latest version v1.2.4 and click Add Package
+- Keep the selection on latest version v1.2.5 and click Add Package
 
 ### Start Pre-requisite
 1. You’ll need Tap to Pay [entitlement](https://developer.apple.com/documentation/ProximityReader/setting-up-the-entitlement-for-tap-to-pay-on-iPhone) before you can use the iOS Embedded Payment SDK.
